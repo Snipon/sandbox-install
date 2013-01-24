@@ -1,0 +1,9 @@
+<?php
+/**
+* Implementation of hook_ctools_plugin_directory().
+*/
+function sandbox_demo_ctools_plugin_directory($module, $plugin) {
+  if ($module == 'ctools') {
+    return 'plugins/' . $plugin; 
+  }
+}

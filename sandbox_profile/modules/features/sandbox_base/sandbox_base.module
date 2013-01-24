@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sandbox base feature.
+ */
+
+include_once 'sandbox_base.features.inc';

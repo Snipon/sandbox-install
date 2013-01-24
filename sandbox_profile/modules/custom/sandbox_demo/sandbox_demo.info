@@ -1,0 +1,5 @@
+name = Sandbox demo module
+description = Just testing n stuff
+core = 7.x
+php = 5.x
+package = Sandbox

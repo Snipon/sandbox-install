@@ -1,1 +1,1 @@
-sandbox.profile
+<?php
