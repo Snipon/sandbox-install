@@ -23,6 +23,7 @@ Then symlink the sandbox_profile into profiles
 
 ##Install
 Then you just have to run this command to install
+
     drush @sandbox si sandbox --db-url=mysql://USER:PASSWORD@127.0.0.1/DB_NAME
 
 Phresh!
