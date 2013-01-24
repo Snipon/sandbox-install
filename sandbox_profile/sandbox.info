@@ -1,0 +1,39 @@
+name = SandBox
+description = Sandbox install profile
+version = 7.x-1.0
+core = 7.x
+
+distribution_name = "Sandbox"
+
+files[] = sandbox.profile
+
+theme = unicorn
+
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+
+dependencies[] = ctools
+dependencies[] = views
+dependencies[] = panels
+dependencies[] = panels_everywhere
+dependencies[] = strongarm
+dependencies[] = diff
+dependencies[] = features
+dependencies[] = admin_menu
+dependencies[] = devel
+dependencies[] = styleguide
+dependencies[] = module_filter
