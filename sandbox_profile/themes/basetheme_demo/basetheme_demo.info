@@ -1,0 +1,17 @@
+name = Base theme demo
+description = Base theme demo description
+core = 7.x
+engine = phptemplate
+base theme = unicorn
+
+; Stylesheet overrides
+; ------------------------------------------
+; stylesheets[all][] = system.menus.css
+
+; Stylesheets
+; ------------------------------------------
+stylesheets[all][] = styles/basetheme_demo.style.css
+
+; Scripts
+; ------------------------------------------
+scripts[] = js/basetheme_demo.script.js
