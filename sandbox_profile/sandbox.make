@@ -17,7 +17,7 @@ projects[panels_everywhere][subdir] = "contrib"
 projects[panels_everywhere][version] = "1.0-rc1"
 
 projects[strongarm][subdir] = "contrib"
-projects[strongarm][version] = "3.0"
+projects[strongarm][version] = "2.0"
 
 projects[diff][subdir] = "contrib"
 projects[diff][version] = "3.2"
