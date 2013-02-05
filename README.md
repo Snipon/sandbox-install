@@ -19,7 +19,7 @@ and add:
 
 Then symlink the sandbox_profile into profiles
 
-    ln -s /PATH/TO/PROFILE/sandbox_profile /PATH/TO/DOCROOT/sandbox
+    ln -s /PATH/TO/PROFILE/sandbox_profile /PATH/TO/DOCROOT/profiles/sandbox
 
 ##Install
 Then you just have to run this command to install
