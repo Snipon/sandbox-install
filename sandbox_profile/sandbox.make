@@ -40,4 +40,4 @@ projects[module_filter][version] = "1.7"
 
 projects[unicorn][type] = theme
 projects[unicorn][download][type] = git
-projects[unicorn][download][url] =  https://github.com/Snipon/unicorn.git
+projects[unicorn][download][url] =  git://github.com/Snipon/unicorn.git
