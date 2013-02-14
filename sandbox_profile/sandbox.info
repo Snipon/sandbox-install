@@ -38,6 +38,9 @@ dependencies[] = devel
 dependencies[] = admin_devel
 dependencies[] = styleguide
 dependencies[] = module_filter
+dependencies[] = libraries
+dependencies[] = themekey
+dependencies[] = views_content
 
 ; Features
 dependencies[] = sandbox_base

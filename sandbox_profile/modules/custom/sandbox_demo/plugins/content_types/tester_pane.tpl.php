@@ -2,6 +2,10 @@
   // $variables is the variable to use
 ?>
 
-<div class="stuff">
-  <textarea rows="10" contenteditable><?php print $variables['stuff']; ?></textarea>
-</div>
+<ul class="stuff">
+  <?php foreach($variables['stuff'] as $key => $row): ?>
+    <li class='item row-<?php print $key; ?>'>
+      <?php print $row; ?>
+    </li>
+  <?php endforeach; ?>
+</ul>

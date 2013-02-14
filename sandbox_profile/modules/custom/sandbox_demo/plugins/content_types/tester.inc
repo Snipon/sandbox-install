@@ -22,7 +22,12 @@ $plugin = array(
 function sandbox_demo_tester_content_type_render($subtype, $conf, $panel_args, $context) {
 
   $variables = array(
-    'stuff' => t("There's no limit of what we can output in this variable."),
+    'stuff' => array (
+      'one' => t("There's no limit of what we can output in this variable."),
+      'two' => t("There's no limit of what we can output in this variable."),
+      'three' => t("There's no limit of what we can output in this variable."),
+      'four' => t("There's no limit of what we can output in this variable."),
+    ),
   );
 
   $output = theme('tester_pane', $variables);
@@ -31,6 +36,11 @@ function sandbox_demo_tester_content_type_render($subtype, $conf, $panel_args, $
   $block = new stdClass();
   $block->title = 'Test!';
   $block->content = $output;
+
+  drupal_add_js(drupal_get_path('module', 'sandbox_demo') . '/js/sandbox_demo.custom.js');
+
+  drupal_add_library('sandbox_demo', 'mootools');
+  dsm(drupal_get_library('sandbox_demo'));
 
   return $block;
 }

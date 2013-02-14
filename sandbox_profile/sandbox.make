@@ -28,6 +28,12 @@ projects[features][version] = "2.0-beta1"
 projects[admin_menu][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc3"
 
+projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "2.0"
+
+projects[themekey][subdir] = "contrib"
+projects[themekey][version] = "2.3"
+
 ; Develop
 projects[devel][subdir] = "develop"
 projects[devel][version] = "1.3"
@@ -41,3 +47,8 @@ projects[module_filter][version] = "1.7"
 projects[unicorn][type] = theme
 projects[unicorn][download][type] = git
 projects[unicorn][download][url] =  git://github.com/Snipon/unicorn.git
+
+;Libraries
+libraries[mootools][download][type] = get
+libraries[mootools][download][url] = http://mootools.net/download/get/mootools-core-1.4.5-full-compat-yc.js
+libraries[mootools][destination] = libraries

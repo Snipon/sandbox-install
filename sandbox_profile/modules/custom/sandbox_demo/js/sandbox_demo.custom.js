@@ -1,0 +1,1 @@
+console.log('Sandbox demo JS operational');
