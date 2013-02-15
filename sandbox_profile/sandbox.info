@@ -41,6 +41,9 @@ dependencies[] = module_filter
 dependencies[] = libraries
 dependencies[] = themekey
 dependencies[] = views_content
+;dependencies[] = jquery_update
+dependencies[] = panelizer
+dependencies[] = panels_ipe
 
 ; Features
 dependencies[] = sandbox_base

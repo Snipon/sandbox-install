@@ -182,7 +182,7 @@ function sandbox_base_default_page_manager_pages() {
   $handler->conf = array(
     'title' => 'Front page',
     'no_blocks' => 1,
-    'pipeline' => 'standard',
+    'pipeline' => 'ipe',
     'body_classes_to_remove' => '',
     'body_classes_to_add' => '',
     'css_id' => '',

@@ -21,6 +21,8 @@ $plugin = array(
  */
 function sandbox_demo_tester_content_type_render($subtype, $conf, $panel_args, $context) {
 
+  // Set some content variables
+
   $variables = array(
     'stuff' => array (
       'one' => t("There's no limit of what we can output in this variable."),
@@ -40,7 +42,6 @@ function sandbox_demo_tester_content_type_render($subtype, $conf, $panel_args, $
   drupal_add_js(drupal_get_path('module', 'sandbox_demo') . '/js/sandbox_demo.custom.js');
 
   drupal_add_library('sandbox_demo', 'mootools');
-  dsm(drupal_get_library('sandbox_demo'));
 
   return $block;
 }

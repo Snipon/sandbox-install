@@ -7,3 +7,17 @@ function sandbox_demo_ctools_plugin_directory($module, $plugin) {
     return 'plugins/' . $plugin; 
   }
 }
+
+function sandbox_demo_library() {
+  // Library One.
+  $libraries['mootools'] = array(
+    'title' => 'Mootools',
+    'website' => 'http://mootools.net',
+    'version' => '1.4.5',
+    'js' => array(
+      'sites/all/libraries/mootools/mootools-core-1.4.5-full-compat-yc.js' => array(),
+    ),
+  );
+
+  return $libraries;
+}

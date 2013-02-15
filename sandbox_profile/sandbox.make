@@ -34,6 +34,12 @@ projects[libraries][version] = "2.0"
 projects[themekey][subdir] = "contrib"
 projects[themekey][version] = "2.3"
 
+projects[jquery_update][subdir] = "contrib"
+projects[jquery_update][version] = 2.x-dev
+
+projects[panelizer][subdir] = "contrib"
+projects[panelizer][version] = 3.1
+
 ; Develop
 projects[devel][subdir] = "develop"
 projects[devel][version] = "1.3"
@@ -49,6 +55,5 @@ projects[unicorn][download][type] = git
 projects[unicorn][download][url] =  git://github.com/Snipon/unicorn.git
 
 ;Libraries
-libraries[mootools][download][type] = get
+libraries[mootools][download][type] = file
 libraries[mootools][download][url] = http://mootools.net/download/get/mootools-core-1.4.5-full-compat-yc.js
-libraries[mootools][destination] = libraries
